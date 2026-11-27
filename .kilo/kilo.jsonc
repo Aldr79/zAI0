@@ -1,0 +1,27 @@
+{
+  "$schema": "https://kilo.ai",
+  "permission": {
+    "edit": "allow",
+    "doom_loop": "ask"
+  },
+  "agent": {
+    "code": {
+      "steps": 12
+    },
+    "plan": {
+      "steps": 8
+    },
+    "orchestrator": {
+      "steps": 20
+    },
+    "game-analyst": {
+      "steps": 15
+    },
+    "android-dev": {
+      "steps": 25
+    },
+    "qa-engineer": {
+      "steps": 20
+    }
+  }
+}
